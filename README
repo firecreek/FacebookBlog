@@ -1,0 +1,20 @@
+Croogo Facebook Blog Plugin
+------------------------------
+Plugin will download your Facebook Page RSS feed and add them as
+published (optional) blog node posts
+
+
+How to use
+------------------------------
+- Log in to admin panel
+- Go to Extensions > Plugins page
+- Upload the zip file (available here)
+- Click on tick/cross icon of 'FacebookBlog' for activating or deactivating the plugin
+
+
+Notes
+------------------------------
+- Settings include:
+-- Auto publish
+-- Node type to add to
+
