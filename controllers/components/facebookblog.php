@@ -112,7 +112,7 @@
       foreach($items as $item) {
         //Existing
         if(array_search($item['guid']['value'],$existingGuids)) {
-          //continue;
+          continue;
         }
         
         //

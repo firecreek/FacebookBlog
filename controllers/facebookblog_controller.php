@@ -51,15 +51,15 @@
       
       //Check valid data req.
       if(!Configure::read('Facebookblog.feed_url')) {
-        $errors[] = __('Feed URL not set');
+        $errors[] = __('Feed URL not set',true);
       }
       
       if(!Configure::read('Facebookblog.node_type_alias')) {
-        $errors[] = __('Node type not set');
+        $errors[] = __('Node type not set',true);
       }
       
       if(!Configure::read('Facebookblog.user_id')) {
-        $errors[] = __('User id not set');
+        $errors[] = __('User id not set',true);
       }
       
       //

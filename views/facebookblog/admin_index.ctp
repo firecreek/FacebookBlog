@@ -3,11 +3,15 @@
 
     <?php if(!empty($errors)): ?>
     
+        <p>There were errors, make sure you edit the <?php echo $html->link(__('settings', true), array('plugin' => '', 'controller' => 'settings', 'action' => 'prefix', 'Facebookblog')); ?> before using discover.</p>
+    
         <ul>
             <?php foreach($errors as $error): ?>
                 <li><?php echo $error; ?></li>
             <?php endforeach; ?>
         </ul>
+        
+        <p></p>
     
     <?php else: ?>
     
