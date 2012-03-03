@@ -14,7 +14,7 @@ How to use
 
 Notes
 ------------------------------
-- Settings include:
--- Auto publish
--- Node type to add to
+- Various settings
+- Tries to generate a decent title and slug but not 100%
+- Only works for Croogo 1.2 at the moment
 
